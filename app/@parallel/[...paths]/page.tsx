@@ -1,3 +1,5 @@
+import { Counter } from "../counter";
+
 export default function Page() {
     return (
         <h2
@@ -5,7 +7,7 @@ export default function Page() {
                 color: "tomato",
             }}
         >
-            PARALLEL [...PATHS]
+            PARALLEL [...PATHS] <Counter />
         </h2>
     );
 }
